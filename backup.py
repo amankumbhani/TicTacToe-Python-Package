@@ -45,12 +45,19 @@ class TicTacToe:
         '''
         Defines how the game is played
         '''
+
         turn = 'X'
         count = 0
-        
-        # replace all values in the board by null
-        for key in self.board:
-            self.board[key] = " "
+        new_key = {'7': ' ' , '8': ' ' , '9': ' ' ,
+                   '4': ' ' , '5': ' ' , '6': ' ' ,
+                   '1': ' ' , '2': ' ' , '3': ' ' }
+
+        # for each key in the above dictionary, make the corresponding value null
+        for key in new_key:
+            new_key[key] = " "
+
+        # update the board using the new_key
+        self.board = new_key
         
         # clear screen before starting the game
         os.system('cls')
