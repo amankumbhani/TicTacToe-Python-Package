@@ -5,8 +5,6 @@ A python game using OOPS concepts
 1. [Installation](#installation)
 2. [Project Motivation](#projectmotivation)
 3. [How to run](#filedescriptions)
-4. [Results](#results)
-5. [Liscensing, Authors and Acknowledgements](#liscense)
 
 ## Installation
 <a id='installation'></a>
